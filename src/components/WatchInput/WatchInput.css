@@ -1,0 +1,24 @@
+.watch-input {
+	display: flex;
+	gap: 30px;
+}
+
+.watch-name {
+	font-size: 14px;
+
+	margin-left: 10px;
+}
+
+.watch-input {
+	padding: 8px;
+	margin-top: 10px;
+}
+
+.watch-btn {
+	cursor: pointer;
+	margin-top: 30px;
+	width: 150px;
+	height: 35px;
+	border: 1px solid black;
+	background-color: white;
+}

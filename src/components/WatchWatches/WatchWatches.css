@@ -1,0 +1,89 @@
+.watches-container {
+	width: 600px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+
+	gap: 30px;
+}
+
+.watch-item {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 50%;
+
+	position: relative;
+}
+
+.watch-name-clock {
+	position: absolute;
+	top: -55px;
+	left: 10px;
+}
+
+.watch-item-minutes {
+	width: 45px;
+	border-bottom: 1px solid black;
+
+	text-align: end;
+
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+	transform-origin: top left;
+}
+
+.watch-item-hours {
+	width: 30px;
+	border-bottom: 1px solid black;
+
+	text-align: end;
+
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	transform-origin: top left;
+}
+
+.watch-item-arrow-minutes {
+	top: -11.3px;
+	left: 36px;
+	position: absolute;
+}
+
+.watch-item-arrow-hours {
+	top: -11.3px;
+	left: 25px;
+	position: absolute;
+}
+
+.watch-item-seconds {
+	width: 49px;
+
+	position: absolute;
+	top: 50px;
+	left: 50px;
+
+	border: 1px dashed black;
+	transform-origin: top left;
+}
+
+.watch-remove {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 20px;
+	height: 20px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 50%;
+
+	top: -8px;
+	right: -12px;
+	position: absolute;
+}
