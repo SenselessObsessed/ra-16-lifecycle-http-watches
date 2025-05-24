@@ -16,11 +16,7 @@ export default function Watch() {
 				setDateInput={setDateInput}
 				setWatches={setWatches}
 			/>
-			<WatchWatches
-				dateInput={dateInput}
-				watches={watches}
-				setWatches={setWatches}
-			/>
+			<WatchWatches watches={watches} setWatches={setWatches} />
 		</>
 	);
 }

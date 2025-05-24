@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 export default function WatchItem({
 	id,
@@ -66,3 +67,12 @@ export default function WatchItem({
 		</div>
 	);
 }
+
+WatchItem.propTypes = {
+	setWatches: PropTypes.func.isRequired,
+	id: PropTypes.string.isRequired,
+	name: PropTypes.string.isRequired,
+	second: PropTypes.number.isRequired,
+	minute: PropTypes.number.isRequired,
+	hour: PropTypes.number.isRequired,
+};

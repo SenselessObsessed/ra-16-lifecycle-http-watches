@@ -1,5 +1,6 @@
 import './WatchInput.css';
 import { v4 as uuidv4 } from 'uuid';
+import PropTypes from 'prop-types';
 
 export default function WatchInput({ date, setDateInput, setWatches }) {
 	const inputHandler = ({ target }) => {
@@ -64,3 +65,9 @@ export default function WatchInput({ date, setDateInput, setWatches }) {
 		</div>
 	);
 }
+
+WatchInput.propTypes = {
+	date: PropTypes.object.isRequired,
+	setDateInput: PropTypes.func.isRequired,
+	setWatches: PropTypes.func.isRequired,
+};
